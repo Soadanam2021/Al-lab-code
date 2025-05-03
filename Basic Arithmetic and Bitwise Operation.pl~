@@ -1,0 +1,39 @@
+% Perform basic arithmetic and bitwise AND operations on two numbers
+
+% Addition
+add(X, Y, Result) :-
+    Result is X + Y.
+
+% Subtraction
+subtract(X, Y, Result) :-
+    Result is X - Y.
+
+% Multiplication
+multiply(X, Y, Result) :-
+    Result is X * Y.
+
+% Division (handles division by zero case)
+divide(X, Y, Result) :-
+    Y \= 0,  % Ensure denominator is not zero
+    Result is X / Y.
+
+divide(_, 0, 'undefined').  % If divisor is zero, return 'undefined'
+
+% Remainder (Modulo)
+remainder(X, Y, Result) :-
+    Y \= 0,  % Ensure denominator is not zero
+    Result is X mod Y.
+
+remainder(_, 0, 'undefined').  % If divisor is zero, return 'undefined'
+
+% Bitwise AND
+bitwise_and(X, Y, Result) :-
+    Result is X /\" Y.
+
+% Example queries:
+% ?- add(5, 3, R).
+% ?- subtract(10, 4, R).
+% ?- multiply(6, 7, R).
+% ?- divide(9, 3, R).
+% ?- remainder(10, 3, R).
+% ?- bitwise_and(5, 3, R).

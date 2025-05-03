@@ -1,0 +1,101 @@
+% Facts:
+% course(CourseCode, CourseName, TeacherName, Credit, SemesterYear).
+
+% 1-1
+course('MATH101', 'Mathematics I (Matrix, Differential Calculus and Coordinate Geometry)', 'Dr. Md. Sabbir Alam', 3, '1-1').
+course('ENG103',  'Communicative English',                                    'Liza Sharmin',             3, '1-1').
+course('CSE105',  'Structured Programming',                                   'Md. Rafsan Jani',          3, '1-1').
+course('CSE106',  'Structured Programming Laboratory',                        'Md. Rafsan Jani',          1, '1-1').
+course('CSE107',  'Electrical Circuits',                                     'Bulbul Ahammad',           3, '1-1').
+course('CSE108',  'Electrical Circuits Laboratory',                          'Bulbul Ahammad',           1, '1-1').
+course('PHY109',  'Physics',                                                 'Mst. Shamima Khanom',      3, '1-1').
+course('URP112',  'Computer Aided Engineering Drawing Laboratory',           'Sania Sifat Miti',         1, '1-1').
+
+% 1-2
+course('MATH151', 'Mathematics II (Integral Calculus, Differential Equations and Series Solutions)', 'Dr. Md. Sabbir Alam',     3, '1-2').
+course('CSE153',  'Discrete Mathematics',                                                                          'Mohammad Ashraful Islam', 3, '1-2').
+course('CSE155',  'Data Structures',                                                                               'Dr. Md. Golam Moazzam',   3, '1-2').
+course('CSE156',  'Data Structures Laboratory',                                                                     'Dr. Md. Golam Moazzam',   1, '1-2').
+course('CSE157',  'Electronic Devices and Circuits-I',                                                              'Sabrina Sharmin',         3, '1-2').
+course('CSE158',  'Electronic Devices and Circuits-I Laboratory',                                                  'Sabrina Sharmin',         1, '1-2').
+course('CSE159',  'Object Oriented Programming (C++)',                                                              'Dr. Md. Ezharul Islam',   3, '1-2').
+course('CSE160',  'Object Oriented Programming (C++) Laboratory',                                                   'Dr. Md. Ezharul Islam',   1, '1-2').
+course('CSE162',  'Technical Writing and Presentation Laboratory',                                                  'Dr. Md Abul Kalam Azad',  1, '1-2').
+
+% 2-1
+course('MATH201', 'Mathematics III (Vector, Complex Variable, Fourier Analysis and Laplace Transformation)', 'Dr. Md. Tauhedul Azam', 3, '2-1').
+course('CSE203',  'Computer Ethics and Cyber Law',                                                                  'Dr. Israt Jahan',         3, '2-1').
+course('CSE205',  'Numerical Methods',                                                                             'Dr. Md. Golam Moazzam',   3, '2-1').
+course('CSE206',  'Numerical Methods Laboratory',                                                                   'Dr. Md. Golam Moazzam',   1, '2-1').
+course('CSE207',  'Electronic Devices and Circuits-II',                                                             'Sabrina Sharmin',         3, '2-1').
+course('CSE208',  'Electronic Devices and Circuits-II Laboratory',                                                 'Sabrina Sharmin',         1, '2-1').
+course('CSE209',  'Algorithms',                                                                                     'Mohammad Ashraful Islam', 3, '2-1').
+course('CSE210',  'Algorithms Laboratory',                                                                           'Mohammad Ashraful Islam', 1, '2-1').
+course('CSE212',  'Object Oriented Programming Laboratory (Java)',                                                 'Dr. Md. Ezharul Islam',   1, '2-1').
+
+% 2-2
+course('CSE251', 'Introduction to Probability and Statistics', 'Md. Habibur Rahman',     3, '2-2').
+course('CSE253', 'Digital Logic Design',                   'Dr. Jugal Krishna Das',      3, '2-2').
+course('CSE254', 'Digital Logic Design Laboratory',        'Dr. Jugal Krishna Das',      1, '2-2').
+course('CSE255', 'Database System',                        'Anup Majumder',              3, '2-2').
+course('CSE256', 'Database System Laboratory',             'Anup Majumder',              1, '2-2').
+course('CSE257', 'Algorithms-II',                          'Mohammad Ashraful Islam',    3, '2-2').
+course('CSE258', 'Algorithms-II Laboratory',               'Mohammad Ashraful Islam',    1, '2-2').
+course('CSE259', 'Data and Telecommunication',             'Dr. Md Abul Kalam Azad',     3, '2-2').
+course('CSE260', 'Data and Telecommunication Laboratory',  'Dr. Md Abul Kalam Azad',     1, '2-2').
+
+% 3-1
+course('ECO301', 'Economics',                                  'Md Adnan Al Nahian',                 3, '3-1').
+course('CSE303', 'Computer Graphics',                           'Dr. Mohammad Sharif Uddin',          3, '3-1').
+course('CSE304', 'Computer Graphics Laboratory',                'Dr. Mohammad Sharif Uddin',          1, '3-1').
+course('CSE305', 'Computational Geometry',                      'Bulbul Ahammad',                     3, '3-1').
+course('CSE307', 'Computer Architecture and Organisation',      'Dr. Jugal Krishna Das',              3, '3-1').
+course('CSE309', 'Operating System',                            'Dr. Md Abul Kalam Azad',             3, '3-1').
+course('CSE310', 'Operating System Laboratory',                 'Dr. Md Abul Kalam Azad',             1, '3-1').
+course('CSE312', 'Web Design and Computer Laboratory-I (PHP/C#)','Dr. Abu Sayed Md. Mostafizur Rahaman',1,'3-1').
+course('CSE314', 'Object Oriented Analysis and Design Laboratory','Sarnali Basak',                     1,'3-1').
+
+% 3-2
+course('BIS351', 'Management and Accounting',                  'Abu Sayef Muntaquimul Bari Chowdhuri', 3, '3-2').
+course('CSE353', 'Human Computer Interaction',                 'Samsun Nahar Khandakar',               3, '3-2').
+course('CSE355', 'Introduction to Bioinformatics',             'Bulbul Ahammad',                       3, '3-2').
+course('CSE357', 'Microprocessor',                             'Dr. Israt Jahan',                      3, '3-2').
+course('CSE358', 'Microprocessor and Assembly Language Lab',   'Dr. Md. Golam Moazzam',                1, '3-2').
+course('CSE359', 'Computer Networks',                          'Dr. Md. Imdadul Islam',                3, '3-2').
+course('CSE360', 'Computer Networks Laboratory',               'Dr. Md. Imdadul Islam',                1, '3-2').
+course('CSE362', 'Web Design and Computer Laboratory-II (JS/Python)','Dr. Abu Sayed Md. Mostafizur Rahaman',1,'3-2').
+
+% 4-1
+course('CSE401', 'Theory of Computation and Compiler Design',    'Amina Khatun',            3, '4-1').
+course('CSE403', 'Software Engineering and Information System Design', 'Dr. Md. Mushfique Anwar', 3, '4-1').
+course('CSE404', 'Software Engineering and ISD Laboratory',       'Dr. Md. Mushfique Anwar', 1, '4-1').
+course('CSE405', 'Digital Image Processing',                      'Dr. Morium Akter',         3, '4-1').
+course('CSE406', 'Digital Image Processing Laboratory',           'Dr. Morium Akter',         1, '4-1').
+course('CSE407', 'Wireless Network',                              'Samsun Nahar Khandakar',   3, '4-1').
+course('CSE410', 'Mobile Application Development Laboratory',     'Dr. Md. Ezharul Islam',    1, '4-1').
+
+% 4-2
+course('CSE451', 'Data Mining and Big Data Analysis',        'Dr. Md. Humayun Kabir',    3, '4-2').
+course('CSE452', 'Data Mining and Big Data Analysis Lab',    'Dr. Md. Humayun Kabir',    1, '4-2').
+course('CSE453', 'Artificial Intelligence',                  'Dr. Morium Akter',         3, '4-2').
+course('CSE454', 'Artificial Intelligence Laboratory',       'Dr. Morium Akter',         1, '4-2').
+course('CSE455', 'Software Quality Assurance',               'Amina Khatun',             3, '4-2').
+course('CSE457', 'Machine Learning',                         'Dr. Liton Jude Rozario',   3, '4-2').
+course('CSE458', 'Machine Learning Laboratory',              'Dr. Liton Jude Rozario',   1, '4-2').
+course('CSE460', 'IoT Laboratory',                           'Dr. Md. Ezharul Islam',    1, '4-2').
+
+%----------------------------------------------------------------------
+% Revised rules to handle 5-argument facts instead of 3-argument facts.
+%----------------------------------------------------------------------
+
+% Get all details of a course by its code
+get_course_details(CourseCode, CourseName, TeacherName, Credit, SemesterYear) :-
+    course(CourseCode, CourseName, TeacherName, Credit, SemesterYear).
+
+% Get all courses taught by a given TeacherName
+get_courses_by_teacher(TeacherName, CourseList) :-
+    findall(
+       [Code, Name, Credit, SemYear],
+       course(Code, Name, TeacherName, Credit, SemYear),
+       CourseList
+    ).
